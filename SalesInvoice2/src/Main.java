@@ -218,7 +218,7 @@ public class Main {
 //
         // Calculate totals
         double total = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7;
-        double discountPercent = 0.6368;
+        final double discountPercent = 0.6368;
         double discounts = total * (discountPercent / 100);
         double grandTotal = total - discounts;
 
